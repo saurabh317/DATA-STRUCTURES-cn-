@@ -1,4 +1,4 @@
-package com.ARRAY;
+package Array;
 import java.util.*;
 
 public class LargestElement {
