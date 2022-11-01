@@ -15,16 +15,7 @@ public class MergeSort {
         }
         return arr;
     }
-
-//    public static int[] PrintArray(int[] arr) {
-//        System.out.println("your sorted array is: ");
-//        for (int i = 0; i < arr.length; i++) {
-//            System.out.println(arr[i]);
-//        }
-//        return arr;
-//    }
-
-    public static int[] Mergesort(int[] arr, int[] b) {
+    public static void Mergesort(int[] arr, int[] b) {
         int i = 0;
         int j = 0;
         int k = 0;
@@ -42,22 +33,22 @@ public class MergeSort {
                 k++;
             }
 
+
         }
-        if (i < arr.length) {
+        while(i < arr.length) {
             arr3[k] = arr[i];
             i++;
             k++;
         }
-        if (j < b.length) {
+        while(j < b.length) {
             arr3[k] = b[j];
             j++;
             k++;
         }
-//
         for (int p = 0; p < (m + n); p++) {
             System.out.println(arr3[p]);
         }
-        return arr3;
+
 
 
     }
@@ -67,8 +58,7 @@ public class MergeSort {
         int[] z = TakeInput();
 //        System.out.println("enter the elements of 2nd array");
         int[] x = TakeInput();
-        int[] h = Mergesort(z, x);
-        System.out.println(h);
+         Mergesort(z, x);
 
     }
 }
