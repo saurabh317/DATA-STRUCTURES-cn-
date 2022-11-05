@@ -33,7 +33,7 @@ public class LargestColSum {
         int[][] arr={{1,2,3},{4,5,6},{7,8,9}};
          int[] z = largesColSum(arr);
          int t = Max(z);
-        System.out.println(t);
+        System.out.println("largest sum :" +t);
 
 
     }
