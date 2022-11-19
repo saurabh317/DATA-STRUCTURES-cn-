@@ -5,6 +5,7 @@ public class thisKeyword {
     private int Roll_no;
 
     public int getData(){
+
         return Roll_no;
     }
     public void setData(int Roll_no){
@@ -17,8 +18,8 @@ public class thisKeyword {
 
 
     public static void main(String[] args) {
-        getterSetter g1 = new getterSetter();
-        getterSetter g2 = new getterSetter();
+        thisKeyword g1 = new thisKeyword();
+        thisKeyword g2 = new thisKeyword();
         g1.setData(100);
         System.out.println(g1.getData());
 
