@@ -9,6 +9,8 @@ public class overriding {
     public  static class car extends vehicle{
         public void print()
         {
+            super.print();//here if we want to call that print function of the super class we can do that by using super keyword//
+
             System.out.println("car");
         }
     }
