@@ -13,7 +13,7 @@ public class isSorted {
 
         }
         int[] smallArr = new int[arr.length-1];
-//        now we will copy the elements of the actual arry to the smaller array
+//        now we will copy the elements of the actual array to the smaller array
         for( int i = 0; i < arr.length-1; i++){
             smallArr[i] = arr[i+1];
         }

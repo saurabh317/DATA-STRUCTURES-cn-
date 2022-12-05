@@ -6,6 +6,7 @@ public class lastIndex {
             return -1;
         }
         int store = checkForLastIndex(arr,StartIndex+1,x);
+//        System.out.println(store);
         if(store != -1){
             return store;
         }

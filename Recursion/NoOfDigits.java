@@ -6,8 +6,10 @@ public class NoOfDigits {
         if (n / 10 == 0) {
             return 1;
         }
-        System.out.println("value is"+n);
-        return 1 + digits(n / 10);
+        int p  = n/10;
+//        System.out.println("value is"+n);
+
+        return 1 + digits(p);
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
