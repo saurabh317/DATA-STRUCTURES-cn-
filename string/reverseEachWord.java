@@ -3,7 +3,7 @@ import java .util.*;
 
 public class reverseEachWord {
     public static String eachWord(String str){
-        int currentWordStart= 0;
+        int currentWordStart = 0;
         String ans = "";
         for( int i = 0; i < str.length(); i++){
             if(str.charAt(i) == ' '){

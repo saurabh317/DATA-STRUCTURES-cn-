@@ -5,6 +5,7 @@ package OPPS1;
      private int Roll_no;
 
    public int getData(){
+
        return Roll_no;
    }
    public void setData(int num){
