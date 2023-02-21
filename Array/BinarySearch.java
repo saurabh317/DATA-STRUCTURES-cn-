@@ -2,8 +2,9 @@ package Array;
 import java.util.*;
 
 public class BinarySearch {
-    public static int[] TakeInput() {
+    public static int[] TakeInput() 
 
+System.out.printpn("hello");
         Scanner sc = new Scanner(System.in);
         System.out.println("enter the size of the array");
         int n = sc.nextInt();
